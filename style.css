@@ -14,6 +14,7 @@
 }
 
 body {
+    font-family: 'Outfit', sans-serif;
     background-color: var(--Verydarkblue_main_BG);
 }
 
@@ -25,27 +26,40 @@ body {
 }
 
 .container {
-    border-radius: 18px;
+    width: 345px;
+    height: auto;
+    border-radius: 24px;
+    padding: 16px;
     background-color: var(--Verydarkblue_card_BG);
     box-shadow: 0 2.7rem 1.5rem rgb(0 0 0 / 25%);
 }
 
 .Equilibrium-img img {
-    padding: 18px;
+    padding: 8px;
     border-radius: 28px;
     width: auto;
-    height: 375px;
+    height: 329px;
 }
 
 .Equilibrium-text {
-    padding: 16px;
+    padding-top: 12px;
+    padding-left: 12px;
+    font-size: 18px;
 }
 
-.Equilibrium-text h1 {
+.Equilibrium-text a {
+    font-weight: 600;
+    text-decoration: none;
     color: var(--White);
 }
 
+.Equilibrium-text a:hover {
+    text-decoration: none;
+    color: var(--Cyan);
+}
+
 .Equilibrium-text p {
+    font-weight: 300;
     color: var(--Softblue);
 }
 
