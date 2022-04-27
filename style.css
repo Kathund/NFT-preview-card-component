@@ -41,6 +41,35 @@ body {
     width: auto;
 }
 
+.NFT-img:hover .overlay {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 15px;
+    transition: .5 ease;
+    background-color: var(--Cyan);
+}
+
+.text {
+    color: var(--White);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .NFT-text {
     padding: 0 12px;
     font-size: 18px;
