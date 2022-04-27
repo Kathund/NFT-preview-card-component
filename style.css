@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-    width: 345px;
+    width: 300px;
     height: auto;
     border-radius: 24px;
     padding: 16px;
@@ -34,33 +34,61 @@ body {
     box-shadow: 0 2.7rem 1.5rem rgb(0 0 0 / 25%);
 }
 
-.Equilibrium-img img {
+.NFT-img img {
     padding: 8px;
     border-radius: 28px;
+    height: 285px;
     width: auto;
-    height: 329px;
 }
 
-.Equilibrium-text {
+.NFT-text {
     padding-top: 12px;
     padding-left: 12px;
     font-size: 18px;
 }
 
-.Equilibrium-text a {
+.NFT-text h1 {
+    font-size: 20px;
     font-weight: 600;
-    text-decoration: none;
     color: var(--White);
 }
 
-.Equilibrium-text a:hover {
-    text-decoration: none;
+.NFT-text h1:hover {
     color: var(--Cyan);
 }
 
-.Equilibrium-text p {
+.NFT-text p {
     font-weight: 300;
     color: var(--Softblue);
+}
+
+.NFT-price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.NFT-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--Softblue);
+}
+
+.NFT-time img {
+    padding-right: 8px;
+}
+
+.ETH-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--Cyan);
+}
+
+.ETH-price img {
+    padding-right: 8px;
 }
 
 .attribution {
