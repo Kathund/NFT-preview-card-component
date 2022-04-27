@@ -42,8 +42,7 @@ body {
 }
 
 .NFT-text {
-    padding-top: 12px;
-    padding-left: 12px;
+    padding: 12px;
     font-size: 18px;
 }
 
@@ -67,6 +66,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 8px 0;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
 }
 
 .NFT-time {
